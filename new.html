@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Basics</title>
+        
+        <meta name="author" content="Leon Baird" />
+        <meta name="keywords" content="training, html, email" />
+        <meta name="description" content="A simple demo of emails" />
+        
+        <meta name="viewport" content="initial-scale=1, user-scalable=no" />
+        
+        <style type="text/css">
+		
+			@media screen and (max-width:600px) {
+				
+				#email_page {
+					width: 100% !important;	
+				}
+				
+				a {
+					text-decoration:none !important;	
+				}
+				
+				#header_text a {
+					color: white;	
+				}
+				
+			}
+			
+			@media screen and (max-width:500px) {
+				#logo, #header_text {
+					width: 100% !important;
+				}
+				
+				#header_text {
+					text-align: center !important;
+				}
+						
+			}
+			
+		</style>
+    </head>
+    
+    <body  bgcolor="#E2E2E2" style="margin-top:0px;margin-bottom:0px;margin-right:0px;margin-left:0px;" >
+    	
+        <!-- Start of page -->
+        <table width="100%" bgcolor="#E2E2E2" cellpadding="0" cellspacing="0" border="0">
+        	<tr>
+            	<td>
+                
+                	<!-- Start of Email -->
+                	<table id="email_page" width="600px" align="center" bgcolor="#FFFFFF"   cellpadding="0" cellspacing="0" border="0" style="font-family:Helvetica, Arial, sans-serif;" >
+                    	<tr>
+                        	<td>
+                            	
+                                <!-- Start of Header -->
+                                <table width="100%" bgcolor="#5271BA"  cellpadding="16px" cellspacing="0" border="0" style="background-image:url(http://www.immediateentourage.com/ie/wp-content/uploads/BigBlueSky.jpg);background-position:center;background-size:cover;" >
+                                	<tr>
+                                    	<td>
+                                        	
+                                        	<!-- Logo Table -->
+                                            <table id="logo" width="25%" align="left"  cellpadding="0" cellspacing="0" border="0">
+                                            	<tr>
+                                                	<td align="center">
+                                                    	<img width="100px" src="logo.png" alt="The Apple logo" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- End of Logo Table -->   
+                                            
+                                            <!-- Header Text Table -->
+                                            <table id="header_text" width="70%" height="122px" align="right"  cellpadding="0" cellspacing="0" border="0">
+                                            	<tr>
+                                                	<td style="color:white;text-shadow:2px 2px 2px black;" >
+                                                    	<h1 style="font-size:28px;margin-bottom:10px;" >Welcome to HTML&nbsp;Emails</h1>
+                                            			<p style="font-size:22px;margin-top:10px;color:blue;" >Call us 020 123 4567</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- End of Header Text Table -->     
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- End of Header -->
+                                
+                                <!-- Email Content -->
+                                <table width="100%" cellpadding="16px" cellspacing="0" border="0">
+                                	<tr>
+                                    	<td>
+                                        	
+                                            <h2>
+                                            	<img height="20px" alt="A picture of a heart" src="data:image/png;base64,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" />
+                                            	Welcome to my lovely email
+                                            </h2>
+                                            
+                                            <p style="color:blue;" >This is an amazing email, because it is all about pies and pie based action
+                                            for the winter months. Pies are great, espiecialy when full of gravy. 
+                                            sdfkjsdkjfn jksdfn jksdn fjkns dfjkn sdjkfn jksd fnjksdn fjkn sdkfj nsjkdfn
+                                             jksdn fkjsdn fjksn dfkjn sdfjkn sdkjfn sdkjfn sjkdfn kjsdnfjksd
+                                            sdflkm sdkfm skdmf email <a href="mailto:pieeater@leon.com?subject=HI, need more pies!">pieeater@leon.com</a></p>
+                                            
+                                            <p style="color:blue;" >This is an amazing email, because it is all about pies and pie based action
+                                            for the winter months. Pies are great, espiecialy when full of gravy. 
+                                            sdfkjsdkjfn jksdfn jksdn fjkns dfjkn sdjkfn jksd fnjksdn fjkn sdkfj nsjkdfn
+                                             jksdn fkjsdn fjksn dfkjn sdfjkn sdkjfn sdkjfn sjkdfn kjsdnfjksd
+                                            sdflkm sdkfm skdmf </p>
+                                            
+                                            <p style="color:blue;" >This is an amazing email, because it is all about pies and pie based action
+                                            for the winter months. Pies are great, espiecialy when full of gravy. 
+                                            sdfkjsdkjfn jksdfn jksdn fjkns dfjkn sdjkfn jksd fnjksdn fjkn sdkfj nsjkdfn
+                                             jksdn fkjsdn fjksn dfkjn sdfjkn sdkjfn sdkjfn sjkdfn kjsdnfjksd
+                                            sdflkm sdkfm skdmf </p>
+                                            
+                                            <h2>Pie related news</h2>
+                                            
+                                            <p style="color:blue;" >Here is the latest news from the world of pies:</p>
+                                            
+                                            <ul class="redBold" style="color:red;font-weight:bold;" >
+                                            	<li>Pies can now fly</li>
+                                                <li>Pies become sentient and can read tabloids</li>
+                                                <li>Pies to start exporing space!</li>
+                                            </ul>
+                                            
+                                            <p style="color:blue;" >
+                                            	If you want to read more, visit the 
+                                            	<a href="http://bbc.co.uk" 
+                                                   title="Read pie news on the BBC">BBC Website</a>.
+                                             </p>
+                                             
+                                             
+                                             <h2>Table this</h2>
+                                             
+                                             <p style="color:blue;" >Here is a lovely table:</p>
+                                             
+                                             <table width="100%"  border="0" cellpadding="6px" cellspacing="0" style="text-align:center;" >
+                                             	<tr valign="top">
+                                                	<th style="text-align:left;" >Room type</th>
+                                                    <th width="100px">Twin from</th>
+                                                    <th width="100px">Single from</th>
+                                                </tr>
+                                                <tr>
+                                                	<td style="text-align:left;" >Single</td>
+                                                    <td>N/A</td>
+                                                    <td>£159</td>
+                                                </tr>
+                                                <tr>
+                                                	<td style="text-align:left;" >Ocean view twin</td>
+                                                    <td>£119</td>
+                                                    <td>£199</td>
+                                                </tr>
+                                                <tr>
+                                                	<td style="text-align:left;" >Superior view twin</td>
+                                                    <td>£150</td>
+                                                    <td>£100</td>
+                                                </tr>
+                                                <tr>
+                                                	<td style="text-align:left;" >Terrace/Balcony twin</td>
+                                                    <td>£5</td>
+                                                    <td>£2</td>
+                                                </tr>
+                                                <tr>
+                                                	<td style="text-align:left;" >Suites</td>
+                                                    <td>39p</td>
+                                                    <td>22p</td>
+                                                </tr>
+                                             </table> 
+                                             
+                                                                 
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- End of Email Content -->
+                                
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- End of Email -->
+                
+                </td>
+            </tr>
+        </table>
+        <!-- End of Page -->
+        
+    </body>
+</html>
